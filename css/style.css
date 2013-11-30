@@ -1,0 +1,205 @@
+body {
+	background:  url('../images/bg7.png');
+	margin: 0px 0px 0px 0px;	
+}
+
+#container {
+	margin: 0px auto;
+	width: 900px;
+	background-color: rgba(256,256,256,0.7); 
+}
+
+a { color: black; }
+a:hover { color: #f68026; }
+
+.nav-wrap { 
+	margin: 5px auto; 
+	background-color: rgba(0,0,0,0.9); 
+	border-top:    2px solid white; 
+	border-bottom: 2px solid white;
+	width: 900px;
+}
+
+/* Clearfix */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+/* Example One */
+#example-one { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative;  
+}
+#example-one li { 
+	display: inline-block;	
+}
+#example-one a { 
+	color: #bbb; 
+	font-size: 14px; 
+	float: left;
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#example-one a:hover { 
+	color: white; 
+}
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	width: 100px; 
+	height: 2px; 
+	background: #fe5100;
+}
+.current_page_item a { 
+	color: white !important; 
+}
+.ie6 #example-one li, .ie7 #example-one li { 
+	display: inline; 
+}
+.ie6 #magic-line {
+	bottom: -3px;
+}
+
+
+/* Example Two */
+#example-two { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width: 960px; 
+}
+#example-two li { 
+	display: inline-block; 
+}
+#example-two li a { 
+	position: relative; 
+	z-index: 200; 
+	color: #bbb; 
+	font-size: 14px; 
+	display: block; 
+	float: left; 
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase; 
+}
+#example-two li a:hover { 
+	color: white; 
+}
+#example-two #magic-line-two { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100px; 
+	background: #900; 
+	z-index: 100; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.current_page_item_two a { 
+	color: white !important; 
+}
+.ie6 #example-two li, .ie7 #example-two li {
+	display: inline;
+}
+
+#preview {
+	width: 800px;
+	padding: 0px 10px 5px 10px;
+	height: 100px;
+}
+
+#left, #center, #right {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+#searchbar {
+	float: right;
+	margin: 3px 0px 0px 0px;
+}
+
+footer {
+	padding: 20px 0px 20px 20px;
+	background: url(../images/bg-footer.png) repeat top left;
+	color: #999;
+	margin-top: -2px;
+	font-size: 15px;
+	font-family: serif;
+}
+
+article {
+	padding: 0px 10px 0px 10px;
+}
+
+#spots, #reviews, #admin {
+	float: left;
+	margin: 50px 0px 0px 30px;
+}
+
+#spots section, #reviews section, #admin section {
+	float: left;
+	margin: 0px 0px 0px 100px;
+	padding: 5px;
+	width: 250px;
+}
+
+#spots section:hover, #reviews section:hover, #admin section:hover {
+	background-color: rgba(245,134,17,0.7); 
+	color: white;
+	text-transform: uppercase;	
+}
+
+.gallery {
+	float: left;
+	margin: 10px 22px 0px 0px;
+}
+
+.gallery img {
+	border: dashed 2px orange;
+}
+
+.gallery a {
+	color:  black;
+	text-decoration: none;
+}
+
+.gallery a:hover {
+	color: #f68026;
+}
+
+#leftFooter {
+	float: left;
+	margin: 0 260px 0 0;
+}
+
+#centerFooter {
+	float: left;
+	margin: 
+}
+
+#centerFooter a {
+	text-decoration: none;
+	color: #999;
+}
+
+#centerFooter a:hover {
+	color: #f68026
+}
+	
+#rightFooter {
+	float: left;
+	margin:  0 0 0 240px;
+}
+
+form {
+	display: inline;
+}

@@ -3,7 +3,7 @@
 <head>
 	<title>Tspot | Add Admin</title>
 	<?php include_once('headtags.php'); ?>
-   
+
 	<script type="text/javascript" >
 		function InputVal() 
 		{
@@ -31,7 +31,7 @@
 				return false;
 			}
 		}
-	</script>   
+	</script>
 </head>
 <body>
 	<?php 
@@ -42,17 +42,17 @@
 		<nav>
 			<div class='nav-wrap'>
 				<ul class='group' id='example-one'>
-		            <a href='index.php'>Home</a> </li>
-		            <li><a href='spots.php'>Spots</a></li>
-		            <li><a href='reviews.php'>Travel Reviews</a></li>
-		            <li><a href='about.php'>About</a></li>
-		            <?php 
-		            	if(isset($_SESSION['AdminID'])) {
+					<a href='index.php'>Home</a> </li>
+					<li><a href='spots.php'>Spots</a></li>
+					<li><a href='reviews.php'>Travel Reviews</a></li>
+					<li><a href='about.php'>About</a></li>
+					<?php 
+						if(isset($_SESSION['AdminID'])) {
 								echo "<li class='current_page_item'><a href='controlPanel.php'>Control Panel</a></li>";		            	
-		            	}
-		            ?>
-		        </ul>
-		    </div>
+						}
+					?>
+				</ul>
+			</div>
 		</nav>
 		
 		<article>
